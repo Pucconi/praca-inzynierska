@@ -29,3 +29,5 @@ sudo mysql -u root -pT7zGwUrURNNk35%N -e "show databases;"
 ## Notaki
 - Doczytaj jak provissioning przenieśc do pliku
 - https://www.vagrantup.com/docs/provisioning/shell
+- jak zakładać urzytkowników w mysql
+- założyć aplikajca_back i aplikacja_front
