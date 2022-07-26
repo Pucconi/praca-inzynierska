@@ -64,21 +64,6 @@ Vagrant.configure("2") do |config|
   # Enable provisioning with a shell script. Additional provisioners such as
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
-  config.vm.provision "shell", inline: <<-SHELL
-sudo apt-get update -y
-sudo apt-get upgrade -y
-sudo apt-get install net-tools -y
-sudo apt-get install mc -y
-sudo apt-get install mysql-server -y
-sudo mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED WITH mysql_native_password by 'T7zGwUrURNNk35%N';"
-sudo mysql_secure_installation -p'T7zGwUrURNNk35%N' <<EOF
+  config.vm.provision "shell", path: "provision.sh"
 
-n
-y
-y
-y
-y
-EOF
-sudo mysql -u root -pT7zGwUrURNNk35%N -e "show databases;"
-  SHELL
 end

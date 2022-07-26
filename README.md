@@ -20,6 +20,8 @@ y
 y
 EOF
 sudo mysql -u root -pT7zGwUrURNNk35%N -e "show databases;"
+sudo mysql -u root -pT7zGwUrURNNk35%N -e "CREATE USER 'aplikajca_back'@'%' IDENTIFIED BY 'J234re5GT4s2agAv';"
+sudo mysql -u root -pT7zGwUrURNNk35%N -e "CREATE USER 'aplikajca_front'@'%' IDENTIFIED BY 'nTwqXK2AS34nGg8X';"
 ```
 
 
@@ -31,3 +33,4 @@ sudo mysql -u root -pT7zGwUrURNNk35%N -e "show databases;"
 - https://www.vagrantup.com/docs/provisioning/shell
 - jak zakładać urzytkowników w mysql
 - założyć aplikajca_back i aplikacja_front
+- z dowolnego hosta %
