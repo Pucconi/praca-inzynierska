@@ -44,6 +44,7 @@ ALTER USER aplikacja_front@% IDENTIFIED BY 'nTwqXK2AS34nGg8X';
 
 vagrant debian provission
 mikr.us -vps
+
 *netstat -tupan*
 
 
