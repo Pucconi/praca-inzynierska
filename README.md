@@ -69,3 +69,10 @@ sudo mysql -u root -pT7zGwUrURNNk35%N -e "CREATE USER 'aplikajca_front'@'%' IDEN
 
 sed -i -e 's/bind-address            = 127.0.0.1/bind-address            = 0.0.0.0/g' /etc/mysql/mariadb.conf.d/50-server.cnf
 systemctl restart mysql
+
+
+
+typ decimal przeczytać 
+vat czy napewno int
+tabele w liczbie pojedyńczej głownie
+komentarz do tabel w workbenchu
