@@ -65,6 +65,6 @@ Vagrant.configure("2") do |config|
   # Ansible, Chef, Docker, Puppet and Salt are also available. Please see the
   # documentation for more information about their specific syntax and use.
   config.vm.provision "shell", path: "provision.sh"
-  config.vm.post_up_message = "Maszyna gotowa do działania"
+  config.vm.post_up_message = "Virtual Machine ready to use"
 
 end
